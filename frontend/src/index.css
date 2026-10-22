@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-paper: #f4f1e8;
+  --color-ink: #1c1915;
+  --color-muted: #6b6458;
+  --color-line: #ddd6c8;
+  --color-accent: #0e5c4a;
+  --color-warn: #8d3d16;
+  --color-panel: #fffdf8;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
